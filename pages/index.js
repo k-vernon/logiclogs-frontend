@@ -4,7 +4,10 @@ export default function Home() {
   return (
     <div>
       <Navbar/>
-      <h1>Hello Next World!</h1>
+      <div className="pt-24 pl-8">
+        <h1>Hello Next World!</h1>
+      </div>
+      
     </div>
   )
 }
