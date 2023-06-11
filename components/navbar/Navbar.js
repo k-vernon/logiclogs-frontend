@@ -2,28 +2,28 @@ import Link from 'next/link'
 
 export default function Navbar() {
   return (
-    <nav className="flex fixed top-0 left-0 w-full items-center justify-between py-4 px-8 bg-black bg-opacity-50 backdrop-blur-lg">
+    <nav className="flex fixed top-0 left-0 w-full items-center justify-between py-3 px-8 bg-black bg-opacity-10 backdrop-blur-lg">
       <div className='flex justify-between space-x-4"'>
         <Link href="/">
             <img src="/logo.png" alt="" className="h-8 w-8" />
         </Link>
-        <Link href="/" className="flex justify-between space-x-4 text-white">
+        <Link href="/" className="flex justify-between space-x-4 text-black">
           LogicLogs
         </Link>
       </div>
-      <ul className="flex justify-center space-x-4 py-4">
+      <ul className="flex justify-center text-black space-x-4 py-4">
         <li>
-          <Link href="/" className="text-white hover:text-gray-300 cursor-pointer">
+          <Link href="/" className="hover:text-gray-300 cursor-pointer">
             Home
           </Link>
         </li>
         <li>
-          <Link href="/about" className="text-white hover:text-gray-300 cursor-pointer">
+          <Link href="/about" className="hover:text-gray-300 cursor-pointer">
             About
           </Link>
         </li>
         <li>
-          <Link href="/contact" className="text-white hover:text-gray-300 cursor-pointer">
+          <Link href="/contact" className="hover:text-gray-300 cursor-pointer">
             Contact
           </Link>
         </li>
