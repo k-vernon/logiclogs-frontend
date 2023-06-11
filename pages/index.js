@@ -5,7 +5,7 @@ export default function Home() {
     <div>
       <Navbar/>
       <div className="pt-24 pl-8">
-        <h1>Hello Next World!</h1>
+        <h1>Easy way to get full control of your projects</h1>
       </div>
       
     </div>
