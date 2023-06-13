@@ -13,17 +13,17 @@ export default function Navbar() {
       </div>
       <ul className="flex justify-center text-black space-x-4 py-4">
         <li>
-          <Link href="/" className="hover:text-gray-300 cursor-pointer">
+          <Link href="/" className="hover:text-yellow-500 cursor-pointer">
             Home
           </Link>
         </li>
         <li>
-          <Link href="/about" className="hover:text-gray-300 cursor-pointer">
+          <Link href="/about" className="hover:text-yellow-300 cursor-pointer">
             About
           </Link>
         </li>
         <li>
-          <Link href="/contact" className="hover:text-gray-300 cursor-pointer">
+          <Link href="/contact" className="hover:text-yellow-300 cursor-pointer">
             Contact
           </Link>
         </li>
