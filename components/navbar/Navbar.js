@@ -24,7 +24,7 @@ export default function Navbar() {
         </li>
         <li>
           <Link href="/contact" className="hover:text-yellow-300 cursor-pointer">
-            Contact
+            Help
           </Link>
         </li>
       </ul>
