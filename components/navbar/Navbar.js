@@ -23,7 +23,7 @@ export default function Navbar() {
           </Link>
         </li>
         <li>
-          <Link href="/contact" className="hover:text-yellow-300 cursor-pointer">
+          <Link href="/help" className="hover:text-yellow-300 cursor-pointer">
             Help
           </Link>
         </li>
