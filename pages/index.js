@@ -13,14 +13,10 @@ export default function Home() {
       
       <section className="bg-gray-100 py-12">
         <div className="container mx-auto px-8">
-          <h2 className="text-3xl font-bold mb-4">Powerful Features</h2>
+          <h2 className="text-3xl font-bold mb-4">Your Dashboard</h2>
           <div className="grid grid-cols-2 gap-8">
             <div className="bg-white rounded-lg p-6">
-              <h3 className="text-lg font-bold mb-2">Feature 1</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in cursus elit, eget consequat quam.</p>
-            </div>
-            <div className="bg-white rounded-lg p-6">
-              <h3 className="text-lg font-bold mb-2">Feature 2</h3>
+              <h3 className="text-lg font-bold mb-2">Lorem ipsum dolor sit amet.</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in cursus elit, eget consequat quam.</p>
             </div>
           </div>
