@@ -1,5 +1,5 @@
 export default function TicketForm() {
   return <div>
-    <h1>TicketForm</h1>
+    <h1>Ticket Form</h1>
     </div>
 }
