@@ -5,27 +5,28 @@ export default function DashboardPage() {
   return (
     <div className="flex">
       <nav className="w-64 bg-gray-200">
-        <ul className="flex flex-col">
+        <ul className="flex flex-col h-screen w-10">
           <li className="p-4">
-            <Link href="/">
-              <p className="text-gray-800 hover:text-gray-600">Home</a>
+            <Link className="text-gray-800 hover:text-gray-600" href="/">
+              Home
             </Link>
           </li>
           <li className="p-4">
-            <Link href="/about">
-              <a className="text-gray-800 hover:text-gray-600">About</a>
+            <Link className="text-gray-800 hover:text-gray-600" href="/">
+              Home
             </Link>
           </li>
           <li className="p-4">
-            <Link href="/contact">
-              <a className="text-gray-800 hover:text-gray-600">Contact</a>
+            <Link className="text-gray-800 hover:text-gray-600" href="/">
+              Home
             </Link>
           </li>
         </ul>
       </nav>
       <div className="flex-1">
-        <h1>Dashboard</h1>
-        <section className=""></section>
+        <section className="">
+          <h1>Welcome user</h1>
+        </section>
       </div>
     </div>
   );
