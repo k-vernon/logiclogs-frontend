@@ -27,10 +27,10 @@ export default function DashboardPage() {
         <section className="bg-red-200 w-28 h-28">
           <h1>Welcome user</h1>
         </section>
-        <section className="">
+        <section className="bg-red-200 w-28 h-28">
           <h1>Welcome user</h1>
         </section>
-        <section className="">
+        <section className="bg-red-200 w-28 h-28">
           <h1>Welcome user</h1>
         </section>
       </div>
