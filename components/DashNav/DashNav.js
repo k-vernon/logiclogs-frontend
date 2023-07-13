@@ -1,23 +1,48 @@
 
 import Link from "next/link"
 
+
+
 export default function DashNav(){
   return (
-    <nav className="w-40 bg-gray-200">
-      <ul className="flex flex-col h-screen w-10">
-        <li className="p-4">
+    <nav className="flex w-40 bg-gray-200 py-20 p-4  h-screen w-10 justify-center text-center">
+      <ul className="flex flex-col justify-between">
+        <li className="">
+        Logo
+        </li>
+        <li className="">
           <Link className="text-gray-800 hover:text-gray-600" href="/">
             Home
           </Link>
         </li>
-        <li className="p-4">
+        <li className="">
           <Link className="text-gray-800 hover:text-gray-600" href="/">
-            Home
+            Profile
           </Link>
         </li>
         <li className="p-4">
           <Link className="text-gray-800 hover:text-gray-600" href="/">
-            Home
+            Notifcations 
+          </Link>
+        </li>
+        <li className="">
+          <Link className="text-gray-800 hover:text-gray-600" href="/">
+           Reports
+          </Link>
+        </li> 
+        <li className="">
+          <Link className="text-gray-800 hover:text-gray-600" href="/">
+           Add Project
+          </Link>
+        </li>
+        <li className="">
+          <Link className="text-gray-800 hover:text-gray-600" href="/">
+           Settings
+          </Link>
+        </li>
+        <li className="">
+          <Link className="text-gray-800 hover:text-gray-600" href="/">
+           Log Out
           </Link>
         </li>
       </ul>
