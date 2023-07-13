@@ -1,39 +1,35 @@
 import Link from "next/link"
+import DashNav from "@/components/DashNav/DashNav";
 
 
 export default function DashboardPage() {
   return (
     <div className="flex">
-      <nav className="w-40 bg-gray-200">
-        <ul className="flex flex-col h-screen w-10">
-          <li className="p-4">
-            <Link className="text-gray-800 hover:text-gray-600" href="/">
-              Home
-            </Link>
-          </li>
-          <li className="p-4">
-            <Link className="text-gray-800 hover:text-gray-600" href="/">
-              Home
-            </Link>
-          </li>
-          <li className="p-4">
-            <Link className="text-gray-800 hover:text-gray-600" href="/">
-              Home
-            </Link>
-          </li>
-        </ul>
-      </nav>
-      <div className="flex-row p-12 w-screen h-screen bg-blue-200">
-        <section className="bg-red-200 w-28 h-28">
-          <h1>Welcome user</h1>
+      <DashNav/>
+      <section className="flex flex-col p-12 w-screen h-screen bg-blue-200">
+        <section className="flex flex-row p-12 bg-purple-200">
+          <div className="bg-red-200 w-28 h-28">
+            <h1>Welcome user</h1>
+          </div>
+          <div className="bg-red-200 w-28 h-28">
+            <h1>Welcome user</h1>
+          </div>
+          <div className="bg-red-200 w-28 h-28">
+            <h1>Welcome user</h1>
+          </div>
         </section>
-        <section className="bg-red-200 w-28 h-28">
-          <h1>Welcome user</h1>
+        <section className="flex flex-row p-12 bg-yellow-200">
+          <div className="bg-red-200 w-28 h-28">
+           <h1>Welcome user</h1>
+          </div>
+          <div className="bg-red-200 w-28 h-28">
+            <h1>Welcome user</h1>
+          </div>
+          <div className="bg-red-200 w-28 h-28">
+            <h1>Welcome user</h1>
+          </div>
         </section>
-        <section className="bg-red-200 w-28 h-28">
-          <h1>Welcome user</h1>
-        </section>
-      </div>
+      </section>
     </div>
   );
 }
