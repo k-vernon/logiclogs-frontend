@@ -16,7 +16,7 @@ const DashboardPage = () => {
       <section className="flex flex-col p-12 w-screen h-screen bg-blue-200">
         <section className="flex flex-row bg-white h-15 pl-12 py-10">
           <input
-            className="border w-5/12"
+            className="border w-5/12 px-3"
             type="text"
             placeholder="Search..."
             value={searchTerm}
