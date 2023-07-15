@@ -28,10 +28,7 @@ const DashboardPage = () => {
         </section>
         <section className="flex flex-row p-12 bg-purple-200">
           <div className="bg-red-200 w-28 h-28">
-            <h1>Welcome user</h1>
-          </div>
-          <div className="bg-red-200 w-28 h-28">
-            <h1>Welcome user</h1>
+            <h1>Projects</h1>
           </div>
           <div className="bg-red-200 w-28 h-28">
             <h1>Welcome user</h1>
@@ -40,12 +37,6 @@ const DashboardPage = () => {
         <section className="flex flex-row p-12 bg-yellow-200">
           <div className="bg-red-200 w-28 h-28">
            <h1>Welcome user</h1>
-          </div>
-          <div className="bg-red-200 w-28 h-28">
-            <h1>Welcome user</h1>
-          </div>
-          <div className="bg-red-200 w-28 h-28">
-            <h1>Welcome user</h1>
           </div>
         </section>
       </section>
