@@ -26,7 +26,7 @@ const DashboardPage = () => {
           Search
           </button>
         </section>
-        <section className="flex flex-row p-12 h-1/2 bg-purple-200 justify-center ">
+        <section className="flex flex-row p-12 h-1/2 bg-green-200 justify-center ">
           <div className="bg-red-200 w-3/4 h-28">
             <h1>Projects</h1>
           </div>
