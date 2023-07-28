@@ -13,8 +13,8 @@ const DashboardPage = () => {
   return (
     <div className="flex">
       <DashNav/>
-      <section className="flex flex-col p-12 w-screen h-screen bg-blue-200">
-        <section className="flex flex-row bg-white h-15 pl-12 py-10">
+      <section className="flex flex-col p-12 w-screen h-screen bg-gray-200">
+        <section className="flex flex-row bg-white h-15 pl-12 py-10 mb-10">
           <input
             className="border w-5/12 px-3"
             type="text"
@@ -26,13 +26,16 @@ const DashboardPage = () => {
           Search
           </button>
         </section>
-        <section className="flex flex-row p-12 h-1/2 bg-green-200 justify-center ">
+        <section className="flex flex-row p-12 h-1/2 bg-gray-100 justify-center mb-10">
           <div className="bg-red-200 w-3/4 h-28">
             <h1>Projects</h1>
           </div>
         </section>
-        <section className="flex flex-row p-12 bg-yellow-200">
-          <div className="bg-red-200 w-28 h-28">
+        <section className="flex flex-row p-12 bg-gray-100 justify-around">
+          <div className="bg-red-200 w-96 h-72">
+           <h1>Welcome user</h1>
+          </div>
+          <div className="bg-red-200 w-96 h-72">
            <h1>Welcome user</h1>
           </div>
         </section>
